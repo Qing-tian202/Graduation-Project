@@ -8,11 +8,11 @@
     
 </head>
 <body >
-    <div id="8c15891d7a5e451ab7cfe734751b6e8e" class="chart-container" style="width:900px; height:500px; "></div>
+    <div id="7daaff030b1e464385ff34cbd3f9be7b" class="chart-container" style="width:900px; height:500px; "></div>
     <script>
-        var chart_8c15891d7a5e451ab7cfe734751b6e8e = echarts.init(
-            document.getElementById('8c15891d7a5e451ab7cfe734751b6e8e'), 'white', {renderer: 'canvas'});
-        var option_8c15891d7a5e451ab7cfe734751b6e8e = {
+        var chart_7daaff030b1e464385ff34cbd3f9be7b = echarts.init(
+            document.getElementById('7daaff030b1e464385ff34cbd3f9be7b'), 'white', {renderer: 'canvas'});
+        var option_7daaff030b1e464385ff34cbd3f9be7b = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -40,7 +40,7 @@
     "series": [
         {
             "type": "line",
-            "name": "\u7b97\u6570\u5e73\u5747\u503c",
+            "name": "Avg_improve",
             "connectNulls": false,
             "xAxisIndex": 0,
             "symbol": "circle",
@@ -62,10 +62,6 @@
                 [
                     "IA-Div",
                     8.12
-                ],
-                [
-                    "IA-Mem",
-                    11.86
                 ],
                 [
                     "IA-Bal",
@@ -95,7 +91,7 @@
         },
         {
             "type": "line",
-            "name": "\u4e2d\u4f4d\u6570",
+            "name": "Median_improvement",
             "connectNulls": false,
             "xAxisIndex": 0,
             "symbol": "triangle",
@@ -117,10 +113,6 @@
                 [
                     "IA-Div",
                     4.7
-                ],
-                [
-                    "IA-Mem",
-                    8.74
                 ],
                 [
                     "IA-Bal",
@@ -152,8 +144,8 @@
     "legend": [
         {
             "data": [
-                "\u7b97\u6570\u5e73\u5747\u503c",
-                "\u4e2d\u4f4d\u6570"
+                "Avg_improve",
+                "Median_improvement"
             ],
             "selected": {},
             "show": true,
@@ -235,14 +227,13 @@
                 "IA-Base",
                 "IA-DP",
                 "IA-Div",
-                "IA-Mem",
                 "IA-Bal"
             ]
         }
     ],
     "yAxis": [
         {
-            "name": "\u63d0\u5347\u767e\u5206\u6bd4(%)",
+            "name": "Improvement(%)",
             "show": true,
             "scale": false,
             "nameLocation": "end",
@@ -285,7 +276,7 @@
         }
     ]
 };
-        chart_8c15891d7a5e451ab7cfe734751b6e8e.setOption(option_8c15891d7a5e451ab7cfe734751b6e8e);
+        chart_7daaff030b1e464385ff34cbd3f9be7b.setOption(option_7daaff030b1e464385ff34cbd3f9be7b);
     </script>
 </body>
 </html>
